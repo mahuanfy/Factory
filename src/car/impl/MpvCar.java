@@ -1,10 +1,14 @@
 package car.impl;
 
 import car.Car;
+import dao.CarDao;
+import dao.impl.CarImpl;
 
 public class MpvCar implements Car{
+    CarDao carDao = new CarImpl();
     @Override
     public void fill() {
-        System.out.println("制造一个mpv汽车");
+        carDao.updateCarByName("MPV汽车");
+        System.out.println("***制造1个MPV汽车");
     }
 }

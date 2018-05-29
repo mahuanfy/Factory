@@ -1,9 +1,14 @@
 package car.impl;
 
 import car.Car;
+import dao.CarDao;
+import dao.impl.CarImpl;
+
 public class SuvCar implements Car {
+    CarDao carDao = new CarImpl();
     @Override
     public void fill() {
-        System.out.println("制造一个SUV汽车");
+        carDao.updateCarByName("SUV汽车");
+        System.out.println("***制造1个SUV汽车");
     }
 }
