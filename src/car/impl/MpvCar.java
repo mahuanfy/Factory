@@ -7,7 +7,7 @@ import dao.impl.CarImpl;
 public class MpvCar implements Car{
     CarDao carDao = new CarImpl();
     @Override
-    public void fill() {
+    public void createCar() {
         carDao.updateCarByName("MPV汽车");
         System.out.println("***制造1个MPV汽车");
     }

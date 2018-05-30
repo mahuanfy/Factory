@@ -1,5 +1,6 @@
 package car;
 
 public interface Car {
-    void fill ();
+
+    void createCar ();
 }

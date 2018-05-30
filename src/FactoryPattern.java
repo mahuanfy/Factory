@@ -110,10 +110,10 @@ public class FactoryPattern {
         AbstractFactory carFactory = new CarFactory();
         if (ONE.equals(carMenu)) {
             Car suvCar = carFactory.getClass(SuvCar.class);
-            suvCar.fill();
+            suvCar.createCar();
         } else if (TWO.equals(carMenu)) {
             Car mpvCar = carFactory.getClass(MpvCar.class);
-            mpvCar.fill();
+            mpvCar.createCar();
         }
         showMeneInfo();
     }

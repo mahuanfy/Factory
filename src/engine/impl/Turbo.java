@@ -12,6 +12,6 @@ public class Turbo implements Engine {
     @Override
     public void manufacture() {
         carDao.updateEngineByName("涡轮增压");
-        System.out.println("***git成功创建1个涡轮增压的发动机");
+        System.out.println("***成功创建1个涡轮增压的发动机");
     }
 }
