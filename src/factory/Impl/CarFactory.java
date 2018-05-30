@@ -22,6 +22,6 @@ public class CarFactory implements AbstractFactory {
         return obj;
     }
     public void fill(){
-        this.obj.fill();
+        this.obj.createCar();
     }
 }
