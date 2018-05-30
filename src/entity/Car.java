@@ -5,8 +5,7 @@ import java.util.Date;
 public class Car {
     private int id ;
     private String name;
-    private String data;
-    private int engine_id;
+    private String time;
 
     public int getId() {
         return id;
@@ -24,19 +23,11 @@ public class Car {
         this.name = name;
     }
 
-    public String getData() {
-        return data;
+    public String getTime() {
+        return time;
     }
 
-    public void setData(String data) {
-        this.data = data;
-    }
-
-    public int getEngine_id() {
-        return engine_id;
-    }
-
-    public void setEngine_id(int engine_id) {
-        this.engine_id = engine_id;
+    public void setTime(String time) {
+        this.time = time;
     }
 }

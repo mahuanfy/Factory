@@ -1,9 +1,12 @@
+package factory.Impl;
+
 import engine.Engine;
+import factory.AbstractFactory;
 
 /**
  * Created by 马欢欢 on 2018/3/15.
  */
-public class EngineFactory implements AbstractFactory{
+public class EngineFactory implements AbstractFactory {
     Engine obj = null;
     @Override
     public Engine getClass(Class clazz){

@@ -3,7 +3,7 @@ package entity;
 public class Engine {
     private int id;
     private String name;
-    private int number;
+    private int time;
 
     public int getId() {
         return id;
@@ -21,11 +21,11 @@ public class Engine {
         this.name = name;
     }
 
-    public int getNumber() {
-        return number;
+    public int getTime() {
+        return time;
     }
 
-    public void setNumber(int number) {
-        this.number = number;
+    public void setTime(int time) {
+        this.time = time;
     }
 }

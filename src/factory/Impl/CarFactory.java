@@ -1,9 +1,12 @@
+package factory.Impl;
+
 import car.Car;
+import factory.AbstractFactory;
 
 /**
  * 汽车组装
  */
-public class CarFactory implements AbstractFactory{
+public class CarFactory implements AbstractFactory {
     Car obj = null;
     @Override
     public Car getClass(Class clazz){
